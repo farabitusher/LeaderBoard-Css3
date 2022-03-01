@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@200;300&family=Roboto:wght@400;500;700;900&display=swap');
+/* common style  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/* end common style  */
+
+/* top-player section  */
+.players-top{
+    background-color: #FFFFFF;
+    padding: 30px;
+        } .top-player-title{
+            color: #562EFF;
+            font-size: 24px;
+            font-weight: 500;
+        } .players{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 870px;
+        }.player{
+            display: flex;
+            align-items: center; 
+        }.player img{
+            width: 56px;
+            height: 56px;
+            margin-right: 15px;
+        }
+     /* top-player section End */  
+     
+.top-blog{
+    background-color: #FFFFFF;
+    padding: 30px;
+}     
+.top-blog img{
+    width: 177px;
+height: 117px;
+margin-right: 16px;
+
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 870px;
+}.blog{
+    display: flex;
+}
+.blog-text{
+    padding: 5px;
+    
+}
+  
+
+
