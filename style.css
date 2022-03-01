@@ -71,12 +71,14 @@ body{
 .latest-course{
     background-color: #FFFFFF;
     padding: 30px;
+    margin-bottom:100px;
 }        
 .courses{
     display: flex;
     width: 870px;
     justify-content: space-between;
     background-color: #FFFFFF;
+    margin-bottom: 50px;
     
 }        
 .course img{
